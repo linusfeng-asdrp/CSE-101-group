@@ -1,1 +1,114 @@
+1. Are the operators (/, //, , %) used the same way?
+Python: / true division, // floor division, ** exponentiation, % modulus
 
+Java: / division (int/int → int, float/float → float), % modulus; no // or ** (use Math.pow())
+
+JavaScript: / division, ** exponentiation (ES6+), % modulus; no //
+
+2. Do string operations like + and * behave the same?
+Python: + concatenates, * repeats string
+
+Java: + concatenates, * not allowed
+
+JavaScript: + concatenates, * not allowed
+
+3. How are variables declared and updated?
+Python: x = 5, update x = x + 1
+
+Java: int x = 5;, update x = x + 1;
+
+JavaScript: let x = 5;, update x = x + 1;
+
+4. Are types required, or can you assign freely?
+Python: No (dynamic typing)
+
+Java: Yes (static typing)
+
+JavaScript: No (dynamic typing)
+
+5. What happens when an error occurs?
+Python: Raises exception immediately
+
+Java: Compile-time or runtime error
+
+JavaScript: Runtime or syntax error in console
+
+6. How is the error shown or handled?
+Python: Traceback with line numbers; handled with try/except
+
+Java: Compile-time errors; handled with try/catch
+
+JavaScript: Console errors; handled with try/catch
+
+7. Are true/false written the same?
+Python: True / False
+
+Java: true / false
+
+JavaScript: true / false
+
+8. What symbols or keywords are used for logical operations?
+Python: and, or, not
+
+Java: &&, ||, !
+
+JavaScript: &&, ||, !
+
+9. How is conditional logic structured?
+Python:
+
+ if x > 0:
+    print(x)
+
+Java:
+
+ if (x > 0) {
+    System.out.println(x);
+}
+
+JavaScript:
+
+ if (x > 0) {
+    console.log(x);
+}
+
+10. Are keywords or formatting different?
+Python: Colons and indentation
+
+Java: Braces {} and semicolons
+
+JavaScript: Braces {} and semicolons
+
+11. How does each language group lines of code?
+Python: Indentation
+
+Java: Braces {}
+
+JavaScript: Braces {}
+
+12. How is a simple loop written and displayed?
+Python:
+
+ for i in range(3):
+    print(i)
+
+Java:
+
+ for (int i = 0; i < 3; i++) {
+    System.out.println(i);
+}
+
+JavaScript:
+
+ for (let i = 0; i < 3; i++) {
+    console.log(i);
+}
+
+13. Which language was easiest to understand?
+Python
+
+14. Which had the clearest output or errors?
+Python
+
+15. Which would you recommend to a beginner?
+Python
