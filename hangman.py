@@ -47,10 +47,12 @@ def play_game():
         # Input validation
         if not valid_guess(guess):
             print("Not a valid guess. Please enter a single letter.")
+            print("Lives left:", lives)
             continue
 
         if guess in guessed_letters:
             print(f"You already guessed '{guess}'. Try a different letter.")
+            print("Lives left:", lives)
             continue
 
         guessed_letters.append(guess)
@@ -64,7 +66,7 @@ def play_game():
             lives -= 1
             print("Letter not found!")
             print(display_word(word, guessed_letters))
-            print("Lives left:", lives)
+        print("Lives left:", lives)
 
     print("Out of lives, game over!")
     print("The word was:", word)
